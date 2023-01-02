@@ -1,4 +1,4 @@
-[
+const movies = [
   {
     "id": 1,
     "Poster_Link": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
@@ -19000,3 +19000,4 @@
     "Gross": ""
   }
 ]
+export default movies;
