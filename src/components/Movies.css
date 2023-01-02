@@ -1,5 +1,14 @@
 .product-item {
   display: block;
-  margin: 15px 30px;
-  
+  margin: 15px 30px;  
+}
+.head_name {
+  color: #666666;
+  font-size: 12px;
+  padding-bottom: 3px;
+  text-align: left;
+  vertical-align: bottom;
+}
+.body_name {
+  box-sizing: border-box;
 }
