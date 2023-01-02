@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
-import "./Product.css";
+import "./Movies.css";
 
 export default function Product() {
   return (
     <div>
-      <h3>Products page</h3>
+      <h2>IMDb Top 1000 Movies</h2>
+      <p>IMDb Top 1000 as rated by regular IMDb voters.</p>
 
       <NavLink className="product-item" to="/product/1">
         Product 1
