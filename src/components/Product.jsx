@@ -1,7 +1,6 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import "./Movies.css";
-import Poster from "./PageMovies/Poster";
-import Title from "./PageMovies/Title";
+import Movie from "./PageMovies/Movie";
 
 export default function Product() {
   return (
@@ -16,7 +15,7 @@ export default function Product() {
           <p><b>IMDb Rating</b></p>
         </div>
       </div>
-      <Poster />
+      <Movie />
       {/* <NavLink className="product-item" to="/product/1">
         Product 1
       </NavLink>

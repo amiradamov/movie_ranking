@@ -1,13 +1,13 @@
-import Titlehtml from "./Titlehtml";
+import Moviehtml from "./Moviehtml";
 import movies from "../../imdb_top_1000";
 
-function createTitleComp(movie) {
+function createMovieComp(movie) {
   return (
-    <Titlehtml
+    <Moviehtml
       key={movie.id}
       id={movie.id}
       title={movie.Series_Title}
-      img={movie.Series_Title}
+      img={movie.Poster_Link}
       year={movie.Released_Year}
       runtime={movie.Runtime}
       genre={movie.Genre}
@@ -19,10 +19,10 @@ function createTitleComp(movie) {
   );
 }
 
-function Title() {
+function Movie() {
   return <div>
-    <dir>{movies.map(createTitleComp)}</dir>
+    <dir>{movies.map(createMovieComp)}</dir>
     </div>;
 }
 
-export default Title;
+export default Movie;
