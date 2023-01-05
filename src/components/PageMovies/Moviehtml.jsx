@@ -3,7 +3,7 @@ import "./Moviehtml.css";
 
 function Moviehtml(props) {
     return (
-        <ul>
+        <ul id="movie_list">
             <NavLink className="product-item" to={`/product/${props.id}`} >
                 <li>
                     <div id="parent">

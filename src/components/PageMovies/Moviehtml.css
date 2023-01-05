@@ -1,4 +1,4 @@
-li {
+#movie_list {
   background-color: rgb(32, 32, 32);
   /* border: 1px solid red; */
   border-top-right-radius: 10px;
@@ -8,6 +8,7 @@ li {
   width: 100%; 
   margin-left: -40px;
   display: inline-block;
+  list-style-type: none;
 }
 #child1 {
   width: 90px;
@@ -39,6 +40,10 @@ li {
 .bar {
   margin-left: 40px;
 }
-ul {
-  list-style-type: none;
+
+.product-item{
+  color: yellow;
+}
+.product-item:hover{
+  color: rgb(206, 206, 14);
 }

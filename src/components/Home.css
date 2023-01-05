@@ -83,3 +83,21 @@
 .info{
   margin-left: 5%;
 }
+.sub_info{
+  margin-left: 7%;
+  font-size: 12px;
+  color: grey;
+}
+#projects {
+  background-color: rgb(32, 32, 32);
+  border-radius: 10px;
+}
+a:link {
+  text-decoration: none;
+}
+.gitlin{
+  color: yellow;
+}
+.gitlin:hover{
+  color: rgb(206, 206, 14);
+}
