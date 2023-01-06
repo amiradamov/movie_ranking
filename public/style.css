@@ -1,17 +1,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-	/* max-width: 1200px;  */
-	/* margin: 0 auto !important;  */
-	/* float: none !important;  */
-    background-color: rgb(58, 58, 58);
-    color: white;
+  background-color: rgb(58, 58, 58);
+  color: white;
 }
-#backgroundd{
+#backgroundd {
   max-width: 1200px;
   margin: auto;
-/* background: white; */
-/* padding: 10px; */
-  /* height: 80%; */
   background-color: rgb(20, 20, 20);
   border: 1px solid rgb(187, 187, 187);
   border-radius: 5px;
